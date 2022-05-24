@@ -28,6 +28,38 @@ body {
     color: white;
 }
 
+
+section.content p{
+    font-size: 24px;
+    font-family: serif;
+
+    color: black;
+}
+
+
+section.vid-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (min-width: 740px) {
+    section.vid-grid { display: flex;
+        flex-direction: row;
+    gap: 10px}
+}
+
+
+section.vid-grid .img-item{
+    opacity: 1;
+    flex: 1;
+    min-width: 0;
+}
+
+
+
 footer {
     width: 100vw;
     height: 40px;
