@@ -28,9 +28,14 @@ body {
     color: white;
 }
 
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 
 section.content p{
-    font-size: 24px;
+    font-size: 50px;
     font-family: serif;
 
     color: black;
@@ -78,4 +83,23 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;;
+}
+
+section.content h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+
+section.content h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+
+section.content p{
+    font-size: 24px;
+    font-family: serif;
+    justify-content: center;
+    color: white;
 }
