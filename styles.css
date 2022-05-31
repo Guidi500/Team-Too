@@ -43,14 +43,14 @@ section.content p{
 
 
 section.vid-grid {
-    display: grid;
+    display: inline-block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 3000px) {
     section.vid-grid { display: flex;
         flex-direction: row;
     gap: 10px}
